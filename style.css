@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+}
+#hero{
+    background-color: #131875;
+    width: 100%;
+    height: 100vh;
+    background-image: repeating-linear-gradient(#131875, #7875e004, #7875e0a1);
+}
+nav{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1318751c;
+    margin-bottom: 30px;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-items{
+    margin-right: 100px;
+    color: white;
+    cursor: pointer;
+}
+li:hover{
+    color: #7975e0;
+}
+.nav-button{
+    color: white;
+    background-color: transparent;
+    border: 2px solid #7975e0;
+    border-radius: 25px;
+    padding: 8px 25px;
+    font-size: 0.8rem;
+    transition: 0.4s;
+    cursor: pointer;
+    font-weight: 500;
+}
+.nav-button:hover{
+    background-color: #7975e0;
+}
+.logo{
+    margin-left: 120px;
+    cursor: pointer;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+}
+.home{
+    color: #7975e0;
+}
+li{
+    margin: 0 13px;
+    font-size: 0.9rem;
+    transition: 0.2s ease;
+}
+#main{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    margin-left: 100px;
+}
+.photo{
+    position: relative;
+    margin-right: 100px;
+    animation-name: example;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+img{
+    width: 600px;
+    height: 70vh;
+}
+h1{
+    font-weight: 700;
+    line-height: 56px;
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    line-height: 60px;
+    color: white;
+}
+p{
+   margin-bottom: 55px;
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.2;
+   color: #7975e0;
+}
+.get-started{
+    font-weight: 500;
+    background-color: #7875e0;
+    color: white;
+    margin-right: 40px;
+    padding: 6px 30px;
+    color: white;
+    border: 2px solid #7975e0;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.get-started:hover{
+    background-color: #6763e7de;
+}
+.watch-video{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: -20px;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+i{
+    margin-right: 10px;
+}
+.watch-video i{
+    font-size: 1.5rem;
+}
+@keyframes example {
+    0%   {top:0px;}
+    50% {top: 35px;}
+    100% {top: 0px;}
+
+}
